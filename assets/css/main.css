@@ -123,6 +123,29 @@
 			opacity: 1;
 		}
 
+/* Album Art styling */
+		.album-art-container{
+			display: flex;
+			justify-content: space-around;
+		}
+
+		.album-art {
+			max-width: 250px;
+			max-height: 250px;
+			padding: 10px;
+}
+
+/* Sponsorship Logos */
+		.sponsor-container {
+			display: flex;
+			justify-content: center;
+		}
+
+		.sponsor {
+			max-height: 75px;
+			margin: 10px;
+		}
+
 /* Type */
 
 	body, input, select, textarea {
@@ -139,6 +162,7 @@
 
 			body, input, select, textarea {
 				font-size: 11pt;
+				font-weight: bold;
 			}
 
 		}
@@ -170,6 +194,11 @@
 
 		a:hover {
 			color: #ff7496;
+			text-decoration: underline;
+		}
+	.selected {
+			color: #FF7496;
+			text-decoration: underline;
 		}
 
 	strong, b {
@@ -207,6 +236,8 @@
 
 	h3 {
 		font-size: 1em;
+		margin-top: -15px;
+		margin-bottom: 25px
 	}
 
 	h4 {
@@ -705,7 +736,7 @@
 		max-width: 100%;
 		min-width: 27em;
 		padding: 4.5em 3em 3em 3em ;
-		background: #ffffff;
+		background: rgba(209, 209, 209, 0.8);
 		border-radius: 4px;
 		cursor: default;
 		opacity: 0.95;
@@ -734,7 +765,7 @@
 				display: block;
 				margin: 0 auto;
 				border-radius: 100%;
-				box-shadow: 0 0 0 1.5em #ffffff;
+				box-shadow: 0 0 0 1.5em rgba(209, 209, 209, 0);
 			}
 
 			#main .avatar:before {

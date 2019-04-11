@@ -125,6 +125,7 @@
 
 /* Album Art styling */
 		.album-art-container{
+			max-width: 650px;
 			display: flex;
 			justify-content: space-around;
 		}
@@ -733,7 +734,7 @@
 
 	#main {
 		position: relative;
-		max-width: 100%;
+		max-width: 100% ;
 		min-width: 27em;
 		padding: 4.5em 3em 3em 3em ;
 		background: rgba(209, 209, 209, 0.8);
